@@ -1,0 +1,8 @@
+<h1>Get Usuarios</h1>
+
+<!-- Esto es una lista que contiene tuplas -->
+<ul>
+  {% for usuario in usuarios %}
+    <li>{{ usuario['id'] }} | {{ usuario.usuario }}</li> 
+  {% endfor %}
+</ul>

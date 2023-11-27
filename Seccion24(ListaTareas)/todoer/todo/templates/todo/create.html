@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block header %}
+<h1>{% block tittle %}Nuevo Todo{% endblock %}</h1>
+{% endblock %}
+{% block content %}
+<form methods="post">
+	<label for="description">Description</label>
+	<input name="description" id="description" required>
+	<input type="submit" value="Guardar">
+</form>
+{% endblock %}

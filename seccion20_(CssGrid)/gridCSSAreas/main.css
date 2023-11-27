@@ -1,0 +1,23 @@
+body{
+    background-color: #eee;
+}
+
+.grid{
+    display: grid; /*inline-grid solo usará lo que necesite el contenido de espacio.*/
+    grid-template-rows: repeat(2,[row-inicio] 50px [row-fin]) ;
+    grid-template-columns: repeat(3,[col-inicio] 1fr [col-fin]);
+    grid-row-gap: 20px;
+    grid-column-gap: 10px;
+    /*grid-gap: 20px 10px; Alternativa para poner los valores gap en una sola linea. Si solo se da un valor lo aplica general para ancho y alto.*/
+}
+
+.element{
+    background-color: red;
+}
+
+.header{
+    grid-column-start: col-inicio;
+    grid-column-end: col-3-fin;
+    grid-row-start: row-inicio;
+    grid-row-end: row-3-fin;
+}

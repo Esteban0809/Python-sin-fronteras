@@ -1,0 +1,39 @@
+body{
+    background-color: #eee;
+}
+
+.grid{
+    display: grid; /*inline-grid solo usará lo que necesite el contenido de espacio.*/
+    grid-template-areas: "header header"
+    "content sidebar"
+    "footer footer";
+    grid-template-rows: 150px 1fr 100px;
+    grid-template-columns: 1fr 200px;
+
+    /*Grilla implícita*/
+    grid-auto-rows: 140px;
+    grid-auto-flow: row;
+
+    /*Justificar y alinear*/
+    /*center: centrar. start: solo el comienzo de la izquierda será tomado. stretch: usará todo el espacio disponible.*/
+    justify-items: stretch;
+    align-items: stretch;
+}
+
+.red{
+    background-color: red;
+}
+
+
+.header{
+    grid-column-start: col-inicio;
+    grid-column-end: col-3-fin;
+    grid-row-start: row-inicio;
+    grid-row-end: row-3-fin;
+}
+
+/*Alinear un solo elemento.*/
+.item1{
+    justify-self: center;
+    align-self: center;
+}

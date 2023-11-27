@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(202, 243, 229);
+
+}
+
+.caja1{
+    background-color: rgb(157, 151, 241);
+    margin: 9px;
+    padding: 10px;
+    border-radius: 15px;
+    border-style: outset;
+    border-top: solid 0px;
+}
+
+.caja2{
+    background-color: rgb(245, 214, 241);
+    border: 0px;
+    border-top: 0px;
+    border-radius: 5px;
+}
+
+.boton1{
+    background-color: aqua;
+    margin: 3px;
+}
+
+.boton2{
+    background-color: rgb(209, 223, 223);
+    margin: 3px;
+}

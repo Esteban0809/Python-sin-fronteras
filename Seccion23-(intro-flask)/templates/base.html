@@ -1,0 +1,15 @@
+<!-- Esta es una plantilla padre -->
+<!-- con los block es para ingresar bloques -->
+<!-- y desde el hijo hacemos referencias a estos blockes -->
+
+<title>{% block title %}{% endblock %}</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+<body>
+  <nav>
+    <h1>Título</h1>
+    <section class="content">
+      {% block content %}{% endblock %}
+    </section>
+  </nav>
+</body>

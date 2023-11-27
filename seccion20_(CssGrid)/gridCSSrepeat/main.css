@@ -1,0 +1,13 @@
+body{
+    background-color: #eee;
+}
+
+.grid{
+    display: grid; /*inline-grid solo usará lo que necesite el contenido de espacio.*/
+    grid-template-rows: repeat(4, 50px);
+    grid-template-columns: 30px repeat(3, 1fr) 15px;
+}
+
+.element{
+    background-color: red;
+}

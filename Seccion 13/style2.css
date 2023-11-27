@@ -1,0 +1,40 @@
+body{
+    background-color:lightgray;
+}
+
+.caja{
+    background:white;
+    margin:10px;
+    padding:5px;
+    border-width: 1px;
+    border-top:solid 0px;
+    border-radius:2px;
+    border-style:solid 0px;
+    border-color:#ccc;
+
+}
+.hr{
+    height: 1px;
+    background-color: lightgray;
+    border: none;
+}
+#btnaceptar{
+    background-color:lightblue;
+    border:none;
+    border-radius:0px;
+    width:80px;
+    height:30px;
+}
+#btncancelar{
+    border:none;
+    border-radius:0px;
+    width:80px;
+    height:30px;
+}
+.footer{
+    padding:10px;
+    border-top:solid 1px #eee;
+}
+.contenido{
+    border-top:solid 1px #eee;
+}

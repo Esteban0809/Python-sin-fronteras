@@ -1,0 +1,13 @@
+body{
+    background-color: #eee;
+}
+
+.fondo{
+    height: 400px;
+    background-color: aquamarine;
+    background-image: url('https://64.media.tumblr.com/4233d70029a0f4e48e9fa11f5909ee80/tumblr_ozc5irgTIm1whk690o4_1280.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}

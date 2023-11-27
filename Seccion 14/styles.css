@@ -1,0 +1,19 @@
+body{
+    background-color:#eee;
+}
+p{
+    font-family:impact;
+    font-style:italic;
+    font-weight: bold;
+    font-size:1em;
+    color:#222fff;
+    text-align:left;
+    text-indent: 50px;
+    line-height: 1.5;
+    text-shadow: 5px 2px 5px red;
+}
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: 10px;
+}

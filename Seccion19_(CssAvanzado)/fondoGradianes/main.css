@@ -1,0 +1,7 @@
+body{
+    background-color: #eee;
+}
+
+.fondo{
+    background-image: repeating-linear-gradient(0deg,#5ae4e4 ,#d889d8, #84ec97, #b34559, #F5B5C0, rgb(236, 179, 208) 15%)
+}
